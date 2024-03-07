@@ -117,3 +117,6 @@ def updateLinksListonDisk():
 totalSetsjson = getJSON("https://www.tcdb.com/Stats.cfm?MODE=Sets&Report=1")
 
 updateLinksListonDisk()
+
+#Run to populate the text file full of players links, 
+#Runs one one machine in parallel, takes about 8 hours

@@ -50,3 +50,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#not needed just a helper class to display a progress bar
