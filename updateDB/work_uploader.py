@@ -7,8 +7,7 @@ def setup_dynamodb():
     # Set up DynamoDB client
     # Replace 'your_access_key_id' and 'your_secret_access_key' with your actual AWS credentials
     dynamodb = boto3.resource('dynamodb',
-                              aws_access_key_id='AKIAYXVK5WVEONT4I4BH',
-                              aws_secret_access_key='K+77ZupdTYeXeZQ7PUKIFmGiwolAXldd3F7gqoOV',
+                              #Removed this line it was my personal AWS access key
                               region_name='us-east-1')  # e.g., 'us-west-2'
     return dynamodb.Table('DigitalSportsCardsDB')  # Replace with your table name
 
